@@ -1,6 +1,18 @@
 // console.log("Hello world");
 
 
+// let sum = 0;
+// let i = 2; // Start from first even number
+// while (i <= 100) {
+//     sum += i;
+//     i += 2; // Jump to next even number
+// }
+// console.log(sum); // Output: 2550
+
+
+
+
+
 // console.log(num);
 //  console.log(x*y);
 // console.log(x/y);
@@ -211,22 +223,97 @@
 //   // console.log(localVar); // يسبب خطأ (localVar مش موجودة في الglobal scope)
 
 
+//   function outerFunction()
 
 
-  function condition(){
-    let age = 20;
-    if(age === 18){
-      
-      console.log('nnnnnnn'); // يشتغل
-    }
-  
 
-    else{
-    console.log("You are a minor.");
-  }
+// let num = 2;
+// console.log('1x'+num+'=',1*num);
+// console.log('2x'+num+'=',2*num);
+// console.log('3x'+num+'=',3*num);
+// console.log('4x'+num+'=',4*num);
+// console.log('5x'+num+'=',5*num);
+// console.log('6x'+num+'=',6*num);
+// console.log('7x'+num+'=',7*num);
+// console.log('8x'+num+'=',8*num);
+// console.log('9x'+num+'=',9*num);
+// console.log('10x'+num+'=',10*num);
+// console.log('11x'+num+'=',11*num);
+// console.log('12x'+num+'=',12*num);
 
-  }
+// this is for loop repiting its start from one to 9 ?
 
-    condition();
+// for (let num = 1;num< 10; num++){
+ 
+//   console.log('number',num);
+// }
 
-  
+// this is for Number loop start from 100 to 1
+
+//  for ( let num = 100 ; num>0;num--){
+//   console.log('number',num)
+//  }
+
+
+
+
+// let = m =10;
+
+// let a = 1 ;
+//  for ( let n = 0 ; n<10;n++){
+ 
+//   console.log( n+'x'+a+'=',n*a);
+// }
+
+
+// for ( let n = 1 ; n<10;n++){
+//     console.log(n)
+//     if (n===6){
+//         console.log('number',n);
+//         break;
+//         // continue;
+//     }
+// }
+
+// let i = 1;
+// while(i<0){
+//     console.log('hello');
+
+//     1'++';
+
+// }
+ 
+
+// let i = 10;
+// while(i<10){
+//     console.log(i);
+//     i++;
+   
+// } 
+
+// let n = 10;
+
+// do{
+//     console.log(n);
+//     n++;
+
+// }while(n<=100);
+
+
+// let sum = 0;
+// let i = 1; 
+// while (i <= 10) {
+//     sum += i;
+//     i ++; 
+// }
+// console.log(sum); 
+
+
+
+let sum = 1;
+let i = 1; 
+while (i <= 100) {
+    sum += i;
+    i ++; 
+}
+console.log(sum); 
