@@ -227,7 +227,7 @@
 
 
 
-// let num = 2;
+// let num = 12;prompt('but the number');
 // console.log('1x'+num+'=',1*num);
 // console.log('2x'+num+'=',2*num);
 // console.log('3x'+num+'=',3*num);
@@ -310,10 +310,63 @@
 
 
 
-let sum = 1;
-let i = 1; 
-while (i <= 100) {
-    sum += i;
-    i ++; 
+// let sum = 1;
+// let i = 1; 
+// while (i <= 100) {
+//     sum += i;
+//     i ++; 
+// }
+// console.log(sum); 
+
+// Get number from user input
+// let num = prompt('Enter a number to see its multiplication table:');
+
+// // Convert the input to a number
+// num = Number(num);
+
+// Display results in console
+// console.log('Multiplication table for ' + num + ':');
+// console.log('1 × ' + num + ' = ' + (1 * num));
+// console.log('2 × ' + num + ' = ' + (2 * num));
+// console.log('3 × ' + num + ' = ' + (3 * num));
+// console.log('4 × ' + num + ' = ' + (4 * num));
+// console.log('5 × ' + num + ' = ' + (5 * num));
+// console.log('6 × ' + num + ' = ' + (6 * num));
+// console.log('7 × ' + num + ' = ' + (7 * num));
+// console.log('8 × ' + num + ' = ' + (8 * num));
+// console.log('9 × ' + num + ' = ' + (9 * num));
+// console.log('10 × ' + num + ' = ' + (10 * num));
+// console.log('11 × ' + num + ' = ' + (11 * num));
+// console.log('12 × ' + num + ' = ' + (12 * num));
+
+// // Also display results on the webpage
+// document.write('<h2>Multiplication Table for ' + num + '</h2>');
+// for (let i = 1; i <= 12; i++) {
+//     document.write(i + ' × ' + num + ' = ' + (i * num) + '<br>');
+// }
+
+
+// let a = prompt("Enter a number");
+// if (a % 2 === 0) {
+// console.log("even");
+// } else {
+// console.log("odd");
+// }
+
+
+
+
+
+
+console.log("magdi");
+while (true) {
+    let a = prompt("first number:");
+    let me = prompt("enter the opareter   +, -, *, /, %");
+    let b = prompt("second number:");
+    if (me === '+') console.log(a + b);
+    else if (me === '-') console.log(a - b);
+    else if (me === '*') console.log(a * b);
+    else if (me === '/') console.log(a / b);
+    else if (me === '%') console.log(a % b);
+    if (!confirm("thank you so match")) break;
 }
-console.log(sum); 
