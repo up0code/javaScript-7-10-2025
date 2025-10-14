@@ -1,38 +1,56 @@
-let display = document.getElementById('display');
+// let sum = 1;
+//  let i = 1; 
+//  while (i <= 100) {
+//     sum += i;
+//      i ++; 
 
-function appendToDisplay(value) {
-    display.value += value;
-}
+//  }
 
-function clearDisplay() {
-    display.value = '';
-}
+//  console.log(sum);
 
-function deleteLast() {
-    display.value = display.value.slice(0, -1);
-}
 
-function calculate() {
-    try {
-        // استبدال × بـ * للحساب
-        let expression = display.value.replace('×', '*');
-        display.value = eval(expression);
-    } catch (error) {
-        display.value = 'خطأ';
+//  let sum = 0;
+// let i = 10; 
+//  while(i <= 90) {
+//      sum += i;
+//     i ++; 
+//  }
+// console.log(sum); 
+
+// let sum = 0;
+// let num = 0;
+// for ( let i = 10 ; i<90;i++){
+//      console.log()
+//     if (i% i===0){
+//         console.log('num',i ,0);
+//          break;
+//           continue;
+//      }
+//  }
+
+
+
+// let sum = 0;
+// let num = 0;
+// Avarev ;
+
+// for(let i = 10   ; i <=90,i++){
+//   if(i% ===0)
+// }
+
+
+let total = 0;
+let count = 0;
+
+for (let i = 10; i <= 90; i++) {
+    if (i % 2 === 0) {
+        total += i;
+        count++;
     }
 }
 
-// إضافة event listener للوحة المفاتيح
-document.addEventListener('keydown', function(event) {
-    const key = event.key;
-    
-    if ('0123456789+-*/.'.includes(key)) {
-        appendToDisplay(key);
-    } else if (key === 'Enter') {
-        calculate();
-    } else if (key === 'Escape') {
-        clearDisplay();
-    } else if (key === 'Backspace') {
-        deleteLast();
-    }
-});
+let average = total / count;
+
+console.log("Sum of even numbers: " + total);
+console.log("Count of even numbers: " + count);
+console.log("Average: " + average);

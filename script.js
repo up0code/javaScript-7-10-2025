@@ -358,15 +358,77 @@
 
 
 
-console.log("magdi");
-while (true) {
-    let a = prompt("first number:");
-    let me = prompt("enter the opareter   +, -, *, /, %");
-    let b = prompt("second number:");
-    if (me === '+') console.log(a + b);
-    else if (me === '-') console.log(a - b);
-    else if (me === '*') console.log(a * b);
-    else if (me === '/') console.log(a / b);
-    else if (me === '%') console.log(a % b);
-    if (!confirm("thank you so match")) break;
-}
+// console.log("magdi");
+// while (true) {
+//     let a = prompt("first number:");
+//     let me = prompt("enter the opareter   +, -, *, /, %");
+//     let b = prompt("second number:");
+//     if (me === '+') console.log(a + b);
+//     else if (me === '-') console.log(a - b);
+//     else if (me === '*') console.log(a * b);
+//     else if (me === '/') console.log(a / b);
+//     else if (me === '%') console.log(a % b);
+//     if (!confirm("thank you so match")) break;
+// }
+
+// let magdi = true;
+// while (magdi){
+//     let num1 = parseFloat(prompt('Enter your first number'));
+//     let  opareter = prompt('enter opareter '-' '+'/');
+//     let num2 = parseFloat(prompt('Enter yur second number'));
+
+//     let results;
+//      if (opareter === '+');{
+//          results = num1 + num2 ;
+//      }
+//       else if (opareter)
+
+// }
+
+
+// let magdi = true;
+
+// while (magdi) {
+//     let num1 = parseFloat(prompt("Enter the first number:"));
+//     let operator = prompt("Enter the operator (+, -, *, /, %):");
+//     let num2 = parseFloat(prompt("Enter the second number:"));
+
+//     let result;
+
+//     if (operator === '+') {
+//         result = num1 + num2;
+//     } else if (operator === '-') {
+//         result = num1 - num2;
+//     } else if (operator === '*') {
+//         result = num1 * num2;
+//     } else if (operator === '/') {
+//         if (num2 !== 0) {
+//             result = num1 / num2;
+//         } else {
+//             alert("Division by zero is not allowed!");
+//             continue;
+//         }
+//     } else if (operator === '%') {
+//         result = num1 % num2;
+//     } else {
+//         alert("Invalid operator!");
+//         continue;
+//     }
+
+//     let parity = (result % 2 === 0) ? "Even" : "Odd";
+//     alert("Result = " + result + "\nThe number is " + parity);
+
+//     magdi = confirm("Do you want to perform another calculation?");
+// }
+
+// alert("Program ended. Thank you for using the calculator!");
+
+let  m =10;
+
+let a = 1 ;
+ for (prompt( let n = 0 ; n<10;n++)){
+ 
+   console.log( n+'x'+a+'=',n*a);
+ }
+
+ 
