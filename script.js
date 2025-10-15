@@ -423,12 +423,51 @@
 
 // alert("Program ended. Thank you for using the calculator!");
 
-let  m =10;
 
-let a = 1 ;
- for (prompt( let n = 0 ; n<10;n++)){
- 
-   console.log( n+'x'+a+'=',n*a);
- }
 
+
+// let  m =10;
+
+// let a = 1 ;
+//  for (prompt( let n = 0 ; n<10;n++)){
  
+//    console.log( n+'x'+a+'=',n*a);
+//  }
+
+
+
+
+
+
+
+
+
+
+
+ //Question 
+
+ //Write a program that lets a user select a product category (electronics , clothing , or food).
+ //inside each category, use another switch to selet a product and dispay its price 
+
+
+// Electectronics 
+
+ //Computer 
+ // price is 2000$
+
+
+
+
+
+// let day;
+//  switch(new Date().getDay()){
+//      case 0:
+//         day = "Sunday";
+//        break;
+//    case 1:
+//          day = "Monday";
+//          break;
+//      case 2:
+
+//  }
+// console.log(`Today is ${day}`);
