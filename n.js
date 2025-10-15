@@ -39,18 +39,68 @@
 // }
 
 
-let total = 0;
-let count = 0;
 
-for (let i = 10; i <= 90; i++) {
-    if (i % 2 === 0) {
-        total += i;
-        count++;
-    }
+
+
+
+
+// let total = 0;
+// let count = 0;
+
+// for (let i = 10; i <= 90; i++) {
+//     if (i % 2 === 0) {
+//         total += i;
+//         count++;
+//     }
+// }
+
+// let average = total / count;
+
+// console.log("Sum of even numbers: " + total);
+// console.log("Count of even numbers: " + count);
+// console.log("Average: " + average);
+
+
+
+
+let sum = 0;
+let c = 0;
+ for (let j = 10 ;
+  j <= 90; 
+  j++
+ ){
+if (j% 2 ===0){
+
+
 }
+  sum+=j;
+  c++;
 
-let average = total / count;
+ }
 
-console.log("Sum of even numbers: " + total);
-console.log("Count of even numbers: " + count);
-console.log("Average: " + average);
+let a = sum / c;
+// console.log( `sum : ${t}`);
+// console.log(`count : ${c}`);
+console.log(`Average : ${a}`)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
