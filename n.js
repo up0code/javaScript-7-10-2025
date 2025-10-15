@@ -128,33 +128,65 @@
 
 
 
+let category = prompt("electronics, clothing, or food?");
+
+switch(category) {
+    case "electronics":
+        let elec = prompt("computer, smartphone, or headphones?");
+        switch(elec) {
+            case "computer": console.log("$2000"); break;
+            case "smartphone": console.log("$800"); break;
+            case "headphones": console.log("$150"); break;
+        }
+        break;
+        
+    case "clothing":
+        let cloth = prompt("tshirt, jeans, or jacket?");
+        switch(cloth) {
+            case "tshirt": console.log("$25"); break;
+            case "jeans": console.log("$60"); break;
+            case "jacket": console.log("$120"); break;
+        }
+        break;
+        
+    case "food":
+        let food = prompt("pizza, burger, or salad?");
+        switch(food) {
+            case "pizza": console.log("$15"); break;
+            case "burger": console.log("$8"); break;
+            case "salad": console.log("$12"); break;
+        }
+        break;
+}
+
+
 // let category = prompt("electronics, clothing, or food?");
 
 // switch(category) {
 //     case "electronics":
 //         let elec = prompt("computer, smartphone, or headphones?");
 //         switch(elec) {
-//             case "computer": console.log("$2000"); break;
-//             case "smartphone": console.log("$800"); break;
-//             case "headphones": console.log("$150"); break;
+//             case "computer": document.write("$2000"); break;
+//             case "smartphone": document.write("$800"); break;
+//             case "headphones": document.write("$150"); break;
 //         }
 //         break;
         
 //     case "clothing":
 //         let cloth = prompt("tshirt, jeans, or jacket?");
 //         switch(cloth) {
-//             case "tshirt": console.log("$25"); break;
-//             case "jeans": console.log("$60"); break;
-//             case "jacket": console.log("$120"); break;
+//             case "tshirt": document.write("$25"); break;
+//             case "jeans": document.write("$60"); break;
+//             case "jacket": document.write("$120"); break;
 //         }
 //         break;
         
 //     case "food":
 //         let food = prompt("pizza, burger, or salad?");
 //         switch(food) {
-//             case "pizza": console.log("$15"); break;
-//             case "burger": console.log("$8"); break;
-//             case "salad": console.log("$12"); break;
+//             case "pizza": document.write("$15"); break;
+//             case "burger": document.write("$8"); break;
+//             case "salad": document.write("$12"); break;
 //         }
 //         break;
 // }
